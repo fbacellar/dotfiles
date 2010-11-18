@@ -1,0 +1,18 @@
+[user]
+  name = Anthony Langhorne
+  email = anthony.langhorne@gmail.com
+[github]
+  user = anthony
+[help]
+  autocorrect = 1
+[color]
+  sh = auto
+[color "sh"]
+  dirty = red
+  workdir = blue bold
+  branch = yellow reverse
+[core]
+  excludesfile = /Users/anthony/.gitignore
+[alias]
+  track = !sh -c 'git branch --track "$0" "origin/$0" && git checkout "$0"'
+  branch-search = !sh -c 'git branch -a | grep $0'
