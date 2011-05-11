@@ -1,2 +1,2 @@
---type-add=ruby=.haml,.rake,.rsel,.js,.html,.erb,.html.erb,.feature
+--type-add=ruby=.haml,.rake,.rsel,.js,.html,.erb,.html.erb,.feature,.coffee
 --ignore-dir=bootstrap

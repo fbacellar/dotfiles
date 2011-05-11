@@ -12,7 +12,7 @@
   workdir = blue bold
   branch = yellow reverse
 [core]
-  excludesfile = /Users/anthony/.gitignore
+  excludesfile = ~/.gitignore
 [alias]
   track = !sh -c 'git branch --track "$0" "origin/$0" && git checkout "$0"'
   branch-search = !sh -c 'git branch -a | grep $0'
