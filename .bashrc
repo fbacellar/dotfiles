@@ -3,6 +3,7 @@ alias flushdns="dscacheutil -flushcache"
 alias b='bundle exec'
 alias fucking_eject='drutil tray eject'
 
+alias sil='rvm use 1.8.7@silhouette'
 alias deploy='heroku maintenance:on && git push heroku master && heroku rake db:migrate && heroku restart && heroku maintenance:off'
 
 export EDITOR='mate -w'
